@@ -15,7 +15,7 @@ spec:
     version: 7.6.3
   values:
     image:
-      repository: pocpubliccontainermirror.azurecr.io/mongodb
+      repository: bitnami/mongodb
       tag: 4.0.13
     usePassword: false
     persistence:
