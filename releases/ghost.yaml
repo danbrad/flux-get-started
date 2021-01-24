@@ -15,7 +15,7 @@ spec:
     path: charts/ghost
   values:
     image:
-      repository: pocpubliccontainermirror.azurecr.io/ghost
+      repository: bitnami/ghost
       tag: 3.1.1-debian-9-r0
     persistence:
       enabled: false
